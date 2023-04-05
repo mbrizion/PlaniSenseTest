@@ -1,0 +1,12 @@
+version: "3.1"
+
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: trees
+      POSTGRES_PASSWORD: changeme
+      POSTGRES_DB: paristrees
+    ports:
+      - 5433:5432

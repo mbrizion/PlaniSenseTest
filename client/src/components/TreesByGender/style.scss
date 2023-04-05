@@ -1,0 +1,27 @@
+.gender-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 3vh;
+  width: 50vw;
+  height: 80vh;
+  overflow: scroll;
+  border: 1px solid rgb(187, 187, 187);
+  .tree-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    .tree-name,
+    .tree-count {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      border-bottom: 1px solid rgb(187, 187, 187);
+      padding: 5px;
+    }
+    .tree-count {
+      border-left: 1px solid black;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.title {
+  background-color: #496d968c;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+  font-family: sans-serif;
+  .gender,
+  .count {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .count {
+    border-left: black 1px solid;
+  }
+}
